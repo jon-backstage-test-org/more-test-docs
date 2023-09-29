@@ -8,7 +8,8 @@ spec:
   type: docs
   owner: "group:default/backstage"
   lifecycle: experimental
-  dependsOn: "resource:default/more-test-docs-database"
+  dependsOn: 
+    - "resource:default/more-test-docs-database"
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Resource
